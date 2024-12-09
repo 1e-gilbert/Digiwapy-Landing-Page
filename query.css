@@ -1,0 +1,218 @@
+/* For tablets and smaller screens */
+@media (max-width: 799px) {
+  .content {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .logo-image {
+    width: 20%; /* Reduce the size of the logo */
+  }
+
+  .content {
+    height: 20%; /* Reduce the size of the logo */
+  }
+
+  .caller-tunez {
+    width: 90%;
+  }
+  .extra-options {
+    flex-direction: column; /* Stack options vertically on smaller screens */
+    gap: 20px; /* Adjust the gap between elements */
+    align-items: center;
+  }
+
+  .option {
+    width: 80%; /* Make the boxes take up more width on small screens */
+    padding: 15px; /* Adjust padding to fit smaller screens */
+  }
+}
+
+@media (max-width: 800px) {
+  .content {
+    width: 85%;
+    padding: 33px;
+  }
+
+  .content h1 {
+    font-size: 30px; /* Reduce h1 size on mobile */
+  }
+
+  .footer {
+    height: auto;
+    padding: 40px 10px; /* Adjust padding for mobile */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Stack the footer links vertically on mobile */
+    gap: 15px; /* Adjust gap between items */
+    align-items: center;
+  }
+
+  .footer-legal {
+    text-align: center; /* Center footer-legal links on mobile */
+  }
+
+  .footer-legal a {
+    display: block; /* Stack terms and privacy policy vertically */
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    flex-direction: column; /* Stack social links vertically */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .ad-space img {
+    width: 90%; /* Reduce ad size for smaller screens */
+    max-height: 150px; /* Ensure it fits within the mobile screen */
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1024px) {
+  .content {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .content h1 {
+    font-size: 30px; /* Reduce h1 size on mobile */
+  }
+
+  .footer {
+    height: auto;
+    padding: 30px 10px; /* Adjust padding for mobile */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Stack the footer links vertically on mobile */
+    gap: 15px; /* Adjust gap between items */
+    align-items: center;
+  }
+
+  .footer-legal {
+    text-align: center; /* Center footer-legal links on mobile */
+  }
+
+  .footer-legal a {
+    display: block; /* Stack terms and privacy policy vertically */
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    flex-direction: column; /* Stack social links vertically */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .ad-space img {
+    width: 90%; /* Reduce ad size for smaller screens */
+    max-height: 150px; /* Ensure it fits within the mobile screen */
+  }
+}
+
+@media (min-width: 390px) and (max-width: 430px) {
+  .content {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .content h1 {
+    font-size: 30px; /* Reduce h1 size on mobile */
+  }
+
+  .footer {
+    height: auto;
+    padding: 29px 8px; /* Adjust padding for mobile */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Stack the footer links vertically on mobile */
+    gap: 15px; /* Adjust gap between items */
+    align-items: center;
+  }
+
+  .footer-legal {
+    text-align: center; /* Center footer-legal links on mobile */
+  }
+
+  .footer-legal a {
+    display: block; /* Stack terms and privacy policy vertically */
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    flex-direction: column; /* Stack social links vertically */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .ad-space img {
+    width: 90%; /* Reduce ad size for smaller screens */
+    max-height: 150px; /* Ensure it fits within the mobile screen */
+  }
+}
+
+@media (min-width: 820px) and (max-width: 912px) {
+  .content {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .content h1 {
+    font-size: 30px; /* Reduce h1 size on mobile */
+  }
+
+  .footer {
+    height: auto;
+    padding: 150px 30px; /* Adjust padding for mobile */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Stack the footer links vertically on mobile */
+    gap: 15px; /* Adjust gap between items */
+    align-items: center;
+  }
+
+  .footer-legal {
+    text-align: center; /* Center footer-legal links on mobile */
+  }
+
+  .footer-legal a {
+    display: block; /* Stack terms and privacy policy vertically */
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    flex-direction: column; /* Stack social links vertically */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .ad-space img {
+    width: 90%; /* Reduce ad size for smaller screens */
+    max-height: 150px; /* Ensure it fits within the mobile screen */
+  }
+}
+
+/* Ipad Pro */
+@media (max-width: 1024px) {
+  .footer {
+    height: auto;
+    padding: 150px 30px; /* Adjust padding for mobile */
+  }
+}
+
+/* Galaxy ZFold 5 */
+@media (max-width: 344px) {
+  .content {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .content h1 {
+    font-size: 28px; /* Reduce h1 size on mobile */
+  }
+
+  .footer {
+    height: auto;
+    padding: 150px 30px; /* Adjust padding for mobile */
+  }
+}
